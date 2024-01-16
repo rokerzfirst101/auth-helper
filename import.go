@@ -38,7 +38,7 @@ func main() {
 	var users []UserRoleMapping
 	incoming := make(chan []UserRoleMapping, 5)
 
-	file, err := os.OpenFile("users.csv", os.O_RDWR, 0644)
+	file, err := os.Create("users.csv")
 	if err != nil {
 		fmt.Println(err)
 
