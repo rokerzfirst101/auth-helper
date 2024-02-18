@@ -1,9 +1,8 @@
-/*
-Copyright © 2024 Rakshit Singh rakshit.lko@gmail.com
-*/
 package main
 
-import "user-data-extractor/cmd"
+import (
+	"github.com/rokerzfirst101/auth-helper/cmd"
+)
 
 func main() {
 	cmd.Execute()

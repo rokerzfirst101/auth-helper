@@ -4,11 +4,13 @@ import (
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
-	"github.com/spf13/cobra"
 	"net/http"
 	"os"
 	"sync"
-	"user-data-extractor/types"
+
+	"github.com/spf13/cobra"
+
+	"github.com/rokerzfirst101/auth-helper/types"
 )
 
 // importCmd represents the import command
