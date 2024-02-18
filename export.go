@@ -14,7 +14,7 @@ const (
 	exportENV = ".export.env"
 )
 
-func main() {
+func export() {
 	envMap, err := godotenv.Read(exportENV)
 	if err != nil {
 		fmt.Println("Error loading .env file")
